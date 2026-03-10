@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kenangan 2025</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* KIRI - FOTO */
+    .photo {
+      width: 50%;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .photo img {
+      width: 90%;
+      border-radius: 12px;
+    }
+
+    /* KANAN - TEKS */
+    .content {
+      width: 50%;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: white;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #222;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .month {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #0077ff;
+    }
+
+    /* RESPONSIVE HP */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .photo, .content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- FOTO KENANGAN -->
+    <div class="photo">
+      <!-- Ganti foto.jpg dengan fotomu -->
+      <img src="Gambar WhatsApp 2026-01-05 pukul 19.55.02_cdfe0748.jpg" alt="Kenangan Januari 2025">
+    </div>
+
+    <!-- PENJELASAN -->
+    <div class="content">
+      <h1>Tahun 2025</h1>
+      <p>
+        Tahun 2025 adalah tahun penuh pengalaman dan pembelajaran.
+        Banyak momen sederhana namun berharga yang tersimpan sebagai kenangan.
+      </p>
+
+      <div class="month">desember 2025</div>
+      <p>
+       dibulan desember karena dibulan itu saya bertemu kelurga 
+       dan merayakan tahun baru dan natal
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
